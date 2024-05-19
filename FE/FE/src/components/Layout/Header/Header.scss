@@ -1,0 +1,70 @@
+.header {
+  padding: 0;
+
+  &__top {
+    background-color: #ADFF2F;
+    padding: 15px 50px;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 28px;
+    font-weight: 700;
+    
+
+    a {
+      color: #006400;
+      text-decoration: none;
+    }
+  }
+
+  &__account {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    li {
+      margin-left: 20px;
+    }
+
+    a {
+      color: #006400;
+      font-weight: 600;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+
+    }
+  }
+}
+
+.button.button-main {
+  border: 2px solid #006400;
+  background-color: white;
+  color: #006400;
+}
+
+.button.button-main:hover {
+  background-color: #006400;
+  color: white;
+}
+
+.button.button-extra {
+  border: 2px solid #006400;
+  background-color: white;
+  color: #006400;
+}
+
+.button.button-extra:hover {
+  background-color: #006400;
+  color: white;
+}

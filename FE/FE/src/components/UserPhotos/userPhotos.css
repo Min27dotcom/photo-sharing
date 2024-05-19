@@ -1,0 +1,42 @@
+
+
+.cs142-card-media {
+	height: 300px;
+}
+
+.cs142-cardcontent-comment-datetime {
+	color: #A9A9A9;
+}
+
+.cs142-userphotos-container {
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.cs142-photos-like-button {
+	position: absolute;
+	right: 135px;
+}
+
+.cs142-photos-delete {
+	position: absolute;
+	right: 135px;
+}
+
+.cs142-cardcontent-delete-comment {
+	color: #808080;
+}
+
+.cs142-cardcontent-delete-comment:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+.cs142-photos-delete2 {
+	position: relative;
+	left: 340px;
+	top: -30px;
+
+}
